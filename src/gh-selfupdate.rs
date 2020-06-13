@@ -17,10 +17,11 @@ fn run() -> Result<(), Box<dyn ::std::error::Error>> {
 
     let status = self_update::backends::github::Update::configure()
         .repo_owner("tjyang")
-        .repo_name("learnrut/rustgb_self_update")
+        .repo_name("rustgb_self_update")
         .bin_name("ghupdate01") 
         .show_download_progress(true)
         //.target_version_tag("v9.9.9")
+	.target_version_tag("0.1")
         //.show_output(false)
         //.no_confirm(true)
         //
