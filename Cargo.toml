@@ -1,0 +1,12 @@
+[package]
+name = "github_update"
+version = "0.1.0"
+authors = ["T.J. Yang"]
+edition = "2018"
+
+[dependencies]
+self_update = "0.16.0"
+
+[[bin]]
+name = "ghupdate01"
+path = "src/gh-selfupdate.rs"
