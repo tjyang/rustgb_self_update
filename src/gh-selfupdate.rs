@@ -22,8 +22,8 @@ fn run() -> Result<(), Box<dyn ::std::error::Error>> {
         .show_download_progress(true)
         //.target_version_tag("v9.9.9")
 	.target_version_tag("0.1")
-        //.show_output(false)
-        //.no_confirm(true)
+        .show_output(false)
+        .no_confirm(true)
         //
         // For private repos, you will need to provide a GitHub auth token
         // **Make sure not to bake the token into your app**; it is recommended
