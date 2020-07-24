@@ -20,9 +20,9 @@ fn run() -> Result<(), Box<dyn ::std::error::Error>> {
         .repo_name("rustgb_self_update")
         .bin_name("ghupdate01") 
         .show_download_progress(true)
-        //.target_version_tag("v9.9.9")
-	.target_version_tag("0.1")
-        .show_output(false)
+	.target_version_tag("v0.1")
+        //.show_output(false)
+        .show_output(true)
         .no_confirm(true)
         //
         // For private repos, you will need to provide a GitHub auth token
